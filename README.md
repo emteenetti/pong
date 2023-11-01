@@ -1,35 +1,40 @@
-<<<<<<< HEAD
 # Pong Game
 
-Welcome to the Pong Game project! This classic game is implemented in Python using the Turtle graphics library. It's a two-player game where each player controls a paddle to hit the ball and score points.
+# Introduction
+# Simple implementation of the classic Pong game using Python and Turtle graphics.
+# Two-player game with paddles and a bouncing ball. Score points by getting the ball past your opponent.
 
-## Table of Contents
-- [Game Overview](#game-overview)
-- [How to Play](#how-to-play)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Customization](#customization)
-- [Contributing](#contributing)
-- [License](#license)
+# How to Play
+# Player 1:
+# - Controls the left paddle.
+# - Use "Up" arrow to move the paddle up.
+# - Use "Down" arrow to move it down.
+# Player 2:
+# - Controls the right paddle.
+# - Use "W" key to move the paddle up.
+# - Use "S" key to move it down.
+# The game ends when one player reaches 10 points.
 
-## Game Overview
+# Installation
+# No special installation required. Ensure you have Python installed.
 
-Pong is a simple yet fun game where two players compete to score points by bouncing a ball back and forth with their paddles. The game features a classic look and feel with a customizable playing field.
+# How to Run
+# 1. Open terminal.
+# 2. Navigate to project directory.
+# 3. Run: `python pong.py`
 
-## How to Play
+# Dependencies
+# Uses Python's standard library with the Turtle graphics module.
 
-1. Launch the game on your Python environment.
-2. Control Player 1's paddle using the "Up" and "Down" arrow keys.
-3. Control Player 2's paddle using the "W" (up) and "S" (down) keys.
-4. Score points by hitting the ball with your paddle.
-5. The first player to reach 10 points wins the game.
+# Project Files
+# - pong.py: Main script with game logic and controls.
+# - player.py: Module for the player's paddle class.
+# - ball.py: Module for the ball class.
+# - scoreboard.py: Module for the scoreboard class.
 
-## Installation
+# Acknowledgments
+# Created by Emmanuel Tetteh as a coding exercise.
 
-To run the Pong game on your local machine, follow these steps:
-
-1. Clone the repository to your computer.
-=======
-# pong
-My version of the ole game of Pong!
->>>>>>> 429498cd02535126c07ff060ee61d57ddefbfca5
+# License
+# Open-source under the MIT License. Use, modify, and share freely.
+# Contact Emmanuel Tetteh for questions or feedback.
