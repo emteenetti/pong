@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Pong Game
 
 Welcome to the Pong Game project! This classic game is implemented in Python using the Turtle graphics library. It's a two-player game where each player controls a paddle to hit the ball and score points.
@@ -28,3 +29,7 @@ Pong is a simple yet fun game where two players compete to score points by bounc
 To run the Pong game on your local machine, follow these steps:
 
 1. Clone the repository to your computer.
+=======
+# pong
+My version of the ole game of Pong!
+>>>>>>> 429498cd02535126c07ff060ee61d57ddefbfca5
