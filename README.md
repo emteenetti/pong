@@ -21,7 +21,7 @@
 # How to Run
 # 1. Open terminal.
 # 2. Navigate to project directory.
-# 3. Run: `python pong.py`
+# 3. Run: `python main.py`
 
 # Dependencies
 # Uses Python's standard library with the Turtle graphics module.
