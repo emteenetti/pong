@@ -33,7 +33,7 @@
 # - scoreboard.py: Module for the scoreboard class.
 
 # Acknowledgments
-# Created by Emmanuel Tetteh as a coding exercise.
+# Created by Emmanuel Tetteh as a coding exercise from scratch.
 
 # License
 # Open-source under the MIT License. Use, modify, and share freely.

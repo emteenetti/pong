@@ -114,13 +114,26 @@ while gameOn:
     if ball.ycor() > 390 or ball.ycor() < - 390:
         ball.bounce_y()
 
-    for paddle in player_1:
-        if ball.distance(paddle) < 15:
-            ball.bounce_x()
+    if ball.distance(player_1[2]) < 15:
+        ball.bounce_x()
+        ball.bounce_up()
+    if ball.distance(player_1[1]) < 15:
+        ball.bounce_x()
 
-    for paddle in player_2:
-        if ball.distance(paddle) < 15:
-            ball.bounce_x()
+    if ball.distance(player_1[0]) < 15:
+        ball.bounce_x()
+        ball.bounce_down()
+
+    if ball.distance(player_2[2]) < 15:
+        ball.bounce_x()
+        ball.bounce_up()
+
+    if ball.distance(player_2[1]) < 15:
+        ball.bounce_x()
+
+    if ball.distance(player_2[0]) < 15:
+        ball.bounce_x()
+        ball.bounce_down()
 
     if ball.xcor() > 400:
         ball.reset()

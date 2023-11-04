@@ -25,3 +25,13 @@ class Ball(Turtle):
 
     def bounce_y(self):
         self.stepY *= -1
+    def bounce_down(self):
+       if self.stepY > 0:
+           self.stepY *= -1
+       else:
+           pass
+    def bounce_up(self):
+       if self.stepY < 0:
+           self.stepY *= -1
+       else:
+           pass
